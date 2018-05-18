@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Semantics</title>
+    <style>
+        body{
+                font-family: Arial, Helvetica, sans-serif;
+        }
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            color: red;
+            text-align: center;
+            background-color: silver;
+        }
+        header {
+            position: fixed;
+            left: 0;
+            top: 10;
+            width: 100%;
+            color: red;
+            text-align: center;
+            background-color: blue;
+
+        }
+        nav {
+            position: fixed;
+            left: 0;
+            top: 10%;
+            height: 80%;
+            width: 100%;
+            color: red;
+            text-align: center;
+            background-color: white;
+        }
+
+        article {
+            position: fixed;
+            left: 0;
+            top: 20%;
+            height: 80%;
+            width: 70%;
+            color: red;
+            text-align: center;
+            background-color: green;
+        }
+        aside {
+            position: fixed;
+            right: 0;
+            top: 20%;
+            height: 80%;
+            width: 30%;
+            color: red;
+            text-align: center;
+            background-color: black;
+        }
+        section {
+            position: fixed;
+            left: 10%;
+            height: 20%;
+            width: 50%;
+            color: red;
+            text-align: center;
+            background-color: yellow;
+        }
+
+    </style>
+    <script type="text/javascript">
+        function myFunction1(){
+            alert("soy el HEADER");
+        }
+        function myFunction2(){
+            alert("soy el NAV");
+        }
+        function myFunction3(){
+            alert("soy el ARTICLE");
+        }
+        function myFunction4(){
+            alert("soy el SECTION");
+        }
+        function myFunction5(){
+            alert("soy el ASIDE");
+        }
+        function myFunction6(){
+            alert("LO MEJOR ESTA AL FINAL FOOTER");
+        }
+
+    </script>
+</head>
+<body>
+    <header onclick="myFunction1()">
+       <center><h1> HEADER <h1></center> 
+    </header>
+    <nav onclick="myFunction2()"><h1>NAV</h1></nav>
+            <article onclick="myFunction3()">
+                <h1>ARTICLE</h1>
+                <section onclick="myFunction4()"><h1>SECTION</h1></section>
+            </article>
+    <aside onclick="myFunction5()">
+        <h1>ASIDE</h1>
+    </aside>
+    <footer onclick="myFunction6()"><h1>FOOTER</h1></footer>
+
+
+</body>
+</html>
