@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+
+		body, html {
+		  height: 100%;
+		  margin: 0;
+		  font: 400 15px/1.8 "Lato", sans-serif;
+		  color: #777;
+		}
+
+		.bgimg-1, .bgimg-2, .bgimg-3 {
+		  position: relative;
+		  opacity: 0.65;
+		  background-attachment: fixed;
+		  background-position: center;
+		  background-repeat: no-repeat;
+		  background-size: cover;
+
+		}
+		.bgimg-1 {
+		  background-image: url("tracer.jpg");
+		  min-height: 100%;
+		}
+
+		.bgimg-2 {
+		  background-image: url("overwach.jpg");
+		  min-height: 400px;
+		}
+
+		.caption {
+		  position: absolute;
+		  left: 0;
+		  top: 50%;
+		  width: 100%;
+		  text-align: center;
+		  color: #000;
+		}
+
+		.caption span.border {
+		  background-color: #111;
+		  color: #fff;
+		  padding: 18px;
+		  font-size: 25px;
+		  letter-spacing: 10px;
+		}
+
+		h3 {
+		  letter-spacing: 5px;
+		  text-transform: uppercase;
+		  font: 20px "Lato", sans-serif;
+		  color: #111;
+		}
+
+		/* Turn off parallax scrolling for tablets and phones */
+		@media only screen and (max-device-width: 1024px) {
+		    .bgimg-1, .bgimg-2, .bgimg-3 {
+		        background-attachment: scroll;
+		    }
+		}
+	</style>
+</head>
+<body>
+	<div class="bgimg-1"></div>
+	<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+	  <h3 style="text-align:center;">CSS</h3>
+	  <p>Hojas de estilo en cascada (o CSS, siglas en inglés de Cascading Stylesheets) es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado. Es muy usado para establecer el diseño visual de los documentos web, e interfaces de usuario escritas en HTML o XHTML; el lenguaje puede ser aplicado a cualquier documento XML, incluyendo XHTML, SVG, XUL, RSS, etcétera. También permite aplicar estilos no visuales, como las hojas de estilo auditivas.
+
+Junto con HTML y JavaScript, CSS es una tecnología usada por muchos sitios web para crear páginas visualmente atractivas, interfaces de usuario para aplicaciones web, y GUIs para muchas aplicaciones móviles (como Firefox OS).</p>
+	<i>Wikipedia</i>
+	</div>
+	<div class="bgimg-2"></div>
+
+</body>
+</html>

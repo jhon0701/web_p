@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS MEDIUM</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		input[type=text] {
+		    width: 100%;
+		    padding: 12px 20px;
+		    margin: 8px 0;
+		    box-sizing: border-box;
+		    border: 3px solid #ccc;
+		    -webkit-transition: 0.5s;
+		    transition: 0.5s;
+		    outline: none;
+		}
+		input[type=password] {
+		    width: 100%;
+		    padding: 12px 20px;
+		    margin: 8px 0;
+		    box-sizing: border-box;
+		    border: 3px solid #ccc;
+		    -webkit-transition: 0.5s;
+		    transition: 0.5s;
+		    outline: none;
+		}
+		input[type=email] {
+		    width: 100%;
+		    padding: 12px 20px;
+		    margin: 8px 0;
+		    box-sizing: border-box;
+		    border: 3px solid #ccc;
+		    -webkit-transition: 0.5s;
+		    transition: 0.5s;
+		    outline: none;
+		}
+		input[type=text]:focus {
+		    border: 3px solid #555;
+		}
+		input[type=password]:focus {
+		    border: 3px solid #555;
+		}
+		input[type=email]:focus {
+		    border: 3px solid #555;
+		}
+		input[type=submit] {
+		    width: 100%;
+		    background-color: indigo;
+		    color: white;
+		    padding: 14px 20px;
+		    margin: 8px 0;
+		    border: none;
+		    border-radius: 4px;
+		    cursor: pointer;
+		}
+		header{
+			width: 100%;
+			padding: 1rem;
+			background-color: indigo;
+			color: white;
+			text-align: center;
+			font-family: "arial";
+
+		}
+		.formulario{
+			width: 50%;
+			margin-left: 25%;
+			margin-top: 5%;
+			padding: 2rem;
+		    border-radius: 5px;
+			font-family: "arial";
+			background-color: #f2f2f2;
+		    padding: 20px;
+
+		}
+		text{
+		}
+	</style>
+</head>
+<header>
+	<h1>
+		CSS MEDIUM
+	</h1>
+</header>
+<div class="formulario">
+	<form  method="post">
+	<label>
+		NOMBRE COMPLETO
+	</label>
+	<input type="text" name="name" required>
+	<label>
+		CORREO
+	</label>
+	<input type="email" name="name" placeholder>
+	<label>
+		USUARIO
+	</label>
+	<input type="text" name="name" required min="8">	
+	<label>
+		CONTRASEÑA
+	</label>
+	<input type="password" name="passwrd" required min="8">
+    <input type="submit" value="Submit">
+</form>
+</div>
+
+<body>
+
+</body>
+</html>
