@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    max-width: 100%; 
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    top: 1%;
+    background: rgba(0, 0, 0, 0);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 15px;
+}
+.pikachu{
+    position: fixed;
+    bottom: 0;
+    left: 5;
+    top: 1%;
+}
+.eevee{
+    position: fixed;
+    bottom: 0;
+    right: 0%;
+    top: 1%;}
+pokemon{
+    position: sticky;
+}
+footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            color: yellow;
+            text-align: center;
+        }
+</style>
+</head>
+<body>
+
+<video autoplay muted loop id="myVideo">
+  <source src="poke.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+<img src="pikachu.png" alt="" class="pikachu">
+<img src="eevee.png" alt="" class="eevee">
+
+<div class="content">
+    <center><img src="pokemon-logo.png" alt="" id="pokemon" width="30%"></center>
+</div>
+<footer>
+    <a href="http://pokemon.com">
+        <h2>
+            IR A LA PAGINA OFICIAL
+        </h2>
+    </a>
+</footer>
+</body>
+</html>
